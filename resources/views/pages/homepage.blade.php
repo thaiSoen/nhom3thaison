@@ -1,11 +1,11 @@
 @include('music.layout')
 @extends('clien.layout.index')
 @section('content')
-    <h2 class="list-product-title">NEW SONG</h2>
+    <h2 class="list-product-title">NEW FOOD</h2>
 
     <div class="list-product-subtitle">
 
-        <p>List song description</p>
+        <p>List food description</p>
 
     </div>
 
@@ -23,24 +23,10 @@
                                 <div class="img-info">
                                     <div class="info-inner">
                                         <span class="p-name">{{ $music->name }}</span>
-                                        <span class="p-company">{{ $music->singer }}</span>
+  
 
                                     </div>
-                                    <div class="a-size">
-
-                                        <span><audio controls controlsList="nodownload" style="width: 290px; height:40px"
-                                                ontimeupdate="myAudio(this)">
-                                                <source src="{{ asset('audio/music/' . $music->audio) }}" type="audio/mp3">
-                                            </audio>
-                                            <script type="text/javascript">
-                                                function myAudio(event) {
-                                                    if (event.currentTime > 10) {
-                                                        event.currentTime = 0;
-                                                        event.pause();
-                                                        alert("Bạn phải trả phí để nghe cả bài")
-                                                    }
-                                                }
-                                            </script>
+                                    
                                             <span><a href="{{ route('pages.detail', $music->id) }}"
                                                     class="btn btn-primary"style="border-radius: 20px">Details</a></span>
 

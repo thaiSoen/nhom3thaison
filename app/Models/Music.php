@@ -14,6 +14,6 @@ class Music extends Model
         return $this->belongsTo('App\Models\Category','category_id');
     }
     protected $fillable= [
-        'name','lyrics','image','audio','price','description','singer','category_id'
+        'name','image','price','description','category_id'
     ]   ;
 }

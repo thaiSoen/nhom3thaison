@@ -11,14 +11,14 @@
                   }
               }
           }'>
-            <div class="intro-slide" style="background-image: url({{ asset('assets/images/category/banner-2.jpg') }});">
+            <div class="intro-slide" style="background-image: url({{ asset('assets/images/category/banner.png') }});">
                 <div class="container intro-content">
                     <div class="row justify-content-end">
                         <div class="col-auto col-sm-7 col-md-6 col-lg-5">
                             <h3 class="intro-subtitle text-third">Deals and Promotions</h3>
                             <!-- End .h3 intro-subtitle -->
-                            <h3 class="intro-subtitle text-primary">Hot Song</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title" style="color: aliceblue">Singer: Imagine Dragons<br>Name:ENEMY
+                            <h3 class="intro-subtitle text-primary">Hot Food</h3><!-- End .h3 intro-subtitle -->
+                            <h1 class="intro-title" style="color: aliceblue">FOOD<br>
                             </h1>
                             <!-- End .intro-title -->
 
@@ -38,12 +38,12 @@
                 </div><!-- End .intro-content -->
             </div><!-- End .intro-slide -->
 
-            <div class="intro-slide" style="background-image: url({{ asset('assets/images/category/banner-3.jpg') }});">
+            <div class="intro-slide" style="background-image: url({{ asset('assets/images/category/banner2.jpg') }});">
                 <div class="container intro-content">
                     <div class="row justify-content-end">
                         <div class="col-auto col-sm-7 col-md-6 col-lg-5">
-                            <h3 class="intro-subtitle text-primary">New Song</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title" style="color: aliceblue">Singer: Imagine Dragons<br>Name:Believer
+                            <h3 class="intro-subtitle text-primary">Food sale</h3><!-- End .h3 intro-subtitle -->
+                            <h1 class="intro-title" style="color: aliceblue"><br>
                             </h1>
                             <!-- End .intro-title -->
 
@@ -68,7 +68,7 @@
     </div><!-- End .intro-slider-container -->
 
     <div class="container">
-        <h2 class="title text-center mb-4">Categories music</h2><!-- End .title text-center -->
+        <h2 class="title text-center mb-4">LIST FOOD</h2><!-- End .title text-center -->
 
         <div class="cat-blocks-container">
             <div class="row">
@@ -76,11 +76,11 @@
                     <a href="category.html" class="cat-block">
                         <figure>
                             <span>
-                                <img style="border-radius: 10%" src="{{ asset('assets/images/category/POP.jpg') }}" alt="Category image">
+                                <img style="border-radius: 10%" src="{{ asset('assets/images/category/POP.png') }}" alt="Category image">
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">POP</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">POP</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
 
@@ -92,7 +92,7 @@
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">JAZZ</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">JAZZ</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
 
@@ -104,7 +104,7 @@
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">EDM</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">EDM</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
 
@@ -116,7 +116,7 @@
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">DANCE</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">DANCE</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
 
@@ -128,7 +128,7 @@
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">BOLERO</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">BOLERO</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
 
@@ -140,7 +140,7 @@
                             </span>
                         </figure>
 
-                        <h3 class="cat-block-title">ROCK</h3><!-- End .cat-block-title -->
+                        {{-- <h3 class="cat-block-title">ROCK</h3><!-- End .cat-block-title --> --}}
                     </a>
                 </div><!-- End .col-sm-4 col-lg-2 -->
             </div><!-- End .row -->

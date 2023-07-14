@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Music Management</h2>
+                <h2>Food Management</h2>
             </div>
             <br><br>
             
@@ -19,11 +19,10 @@
         <tr>
             <th>No</th>
             <th>Name</th>
-            <th>Lyrics</th>
-            <th>Singer</th>
+           
             <th>Category</th>
             <th>Image</th>
-            <th>Audio</th>
+            
             <th>Price</th>
             <th>Details</th>
             <th width="280px">Action</th>
@@ -32,25 +31,11 @@
             <tr>
                 <td>{{ $key + 1 }}</td>
                 <td>{{ $music->name }}</td>
-                <td>{{ $music->lyrics }}</td>
-                <td>{{ $music->singer }}</td>
+               
                 <td>{{ $music->category->name }}</td>
                 <td><img class="images-detail" src="{{ asset('image/music/' . $music->image) }}" alt="" border=3 height=150 width=150>
                 </td>
-                <td>
-                  <audio controls controlsList="nodownload" style="width: 250px;" ontimeupdate="myAudio(this)">
-                    <source src="{{ asset('audio/music/'.$music->audio) }}" type="audio/mp3">
-                    </audio>
-                    {{-- <script type="text/javascript">
-                        function myAudio(event){
-                            if(event.currentTime>20){
-                                event.currentTime=0;
-                                event.pause();
-                                alert("Bạn phải trả phí để nghe cả bài")
-                            }
-                        }
-                    </script> --}}
-                </td>
+               
 
                 <td>{{ $music->price }}</td>
 

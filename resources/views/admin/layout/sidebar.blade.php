@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">MUSIC MANAGER</div>
+        <div class="sidebar-brand-text mx-3">FOOD MANAGER</div>
     </a>
 
     <!-- Divider -->
@@ -31,7 +31,7 @@
         <a class="nav-link collapsed" href="{{ route('music.index') }}" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-fw fa-cog"></i>
-            <span>Manager song</span>
+            <span>Manager food</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -47,7 +47,7 @@
         <a class="nav-link collapsed" href="{{ route('music.create') }}" data-toggle="collapse" data-target="#collapseUtilities"
             aria-expanded="true" aria-controls="collapseUtilities">
             <i class="fas fa-fw fa-wrench"></i>
-            <span>Add new song</span>
+            <span>Add new food</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
             data-parent="#accordionSidebar">

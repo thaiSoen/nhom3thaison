@@ -56,16 +56,7 @@
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-
-                <div class="form-group">
-
-                    <input type="text" name="singer" class="form-control" placeholder="singer"
-                        value="{{ $music->singer }}">
-
-                </div>
-
-            </div>
+           
 
             <div class="col-xs-12 col-sm-12 col-md-12">
 
@@ -100,23 +91,7 @@
                         </div>
 
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-
-                        <div class="form-group">
-
-                            <strong>Audio:</strong>
-
-
-
-                        </div>
-
-                    </div>
-
-
-                    <input type="file" class="form-control" placeholder="Audio" value="" name="audio" />
-
-                </div>
-
+                   
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
 
@@ -139,15 +114,7 @@
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-
-                <div class="form-group">
-
-                    <strong>Lyric :</strong>
-
-                    <textarea class="form-control" style="height:150px" name="lyrics" placeholder="Lyric">{{ $music->lyrics }}</textarea>
-
-                </div>
+            
 
             </div>
 

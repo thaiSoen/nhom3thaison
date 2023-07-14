@@ -17,8 +17,8 @@
                                 
                             </div>
                         </li>
-                        <li>  <a class="nav-link" href="{{ route('welcome.login') }}">
-                            <i class="fas fa-fw fa-tachometer-alt"></i>Sign Up</li>
+                        <li>  <a class="nav-link" href="{{ route('logout') }}">
+                            <i class="fas fa-fw fa-tachometer-alt"></i>Sign Out</li>
                     </ul>
                 </li>
             </ul><!-- End .top-menu -->

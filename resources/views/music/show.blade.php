@@ -7,7 +7,7 @@
 
             <div class="pull-left">
 
-                <h2> Show music</h2>
+                <h2> Show food</h2>
 
             </div>
 
@@ -45,33 +45,12 @@
             </div>
 
         </div>
+       
         <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div class="form-group">
 
-                <strong>Audio:</strong>
-
-                <audio controls controlsList="nodownload" style="width: 250px;" ontimeupdate="myAudio(this)">
-                    <source src="{{ asset('audio/music/'.$music->audio) }}" type="audio/mp3">
-                    </audio>
-                    <script type="text/javascript">
-                        function myAudio(event){
-                            if(event.currentTime>40){
-                                event.currentTime=0;
-                                event.pause();
-                                alert("Bạn phải trả phí để nghe cả bài")
-                            }
-                        }
-                    </script>
-
-            </div>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-
-            <div class="form-group">
-
-                <strong>Singer:</strong>
+                <strong>Type of food:</strong>
 
                 {{ $music->singer }}
 

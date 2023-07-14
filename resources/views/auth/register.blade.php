@@ -219,7 +219,7 @@
 
         <div class="col-md-3 register-left">
 
-            <img src="https://cdn.pixabay.com/photo/2015/05/11/22/11/musical-notes-763193_960_720.png" alt="" />
+            {{-- <img src="https://cdn.pixabay.com/photo/2015/05/11/22/11/musical-notes-763193_960_720.png" alt="" /> --}}
 
             <h3>Welcome</h3><br><br><br>
 

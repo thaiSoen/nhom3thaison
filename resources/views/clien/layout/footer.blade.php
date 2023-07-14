@@ -30,10 +30,9 @@
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
                     <div class="widget widget-about">
-                        <img src="{{ asset('assets/images/notnhac.png') }}" class="footer-logo" alt="Footer Logo"
+                        <img src="{{ asset('assets/images/doan.jpg') }}" class="footer-logo" alt="Footer Logo"
                             width="105" height="25">
-                        <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros
-                            eu erat. </p>
+                        <p>Discover, search online and share our ever-expanding food combinations </p>
 
                         <div class="widget-call">
                             <i class="icon-phone"></i>

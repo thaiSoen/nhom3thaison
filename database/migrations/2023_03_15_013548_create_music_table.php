@@ -16,12 +16,9 @@ return new class extends Migration
         Schema::create('music', function (Blueprint $table) {
             $table->id();
             $table->string('name',255)->nullable();
-            $table->string('lyrics');
             $table->string('image');
-            $table->string('audio');
             $table->decimal('price',22)->nullable();
             $table->string('description',500)->nullable();
-            $table->string('singer')->nullable();
             $table->unsignedInteger('category_id');
             $table->foreign('category_id')->references('id')->on('category'); 
             $table->timestamps();

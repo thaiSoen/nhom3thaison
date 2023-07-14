@@ -70,40 +70,9 @@
 
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-12">
+           
 
-                <div class="form-group">
-
-                    <strong>Singer:</strong>
-
-                    <input type="text" name="singer" class="form-control" placeholder="singer">
-
-                </div>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-12">
-
-                <div class="form-group">
-
-                    <strong>Audio:</strong>
-
-                    <input type="file" class="form-control" placeholder="Audio" value="" name="audio" />
-
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-12">
-
-                    <div class="form-group">
-
-                        <strong>Lyric:</strong>
-
-                        <textarea class="form-control" style="height:150px" name="lyrics" placeholder="Lyrics"></textarea>
-
-                    </div>
-
-                </div>
-
+           
                 <div class="col-xs-12 col-sm-12 col-md-12">
 
                     <div class="form-group">
