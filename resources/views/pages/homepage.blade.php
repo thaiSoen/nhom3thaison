@@ -9,7 +9,7 @@
 
     </div>
 
-    <div class="product-group">
+    <div class="product-group" style="display:flex">
 
         <div class="row">
 
